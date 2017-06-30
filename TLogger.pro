@@ -19,15 +19,17 @@ VERSION  = 0.0.1
 
 DEFINES += TLOGGER_LIBRARY
 
-SOURCES += $$PWD/src/tlogger.cpp \
-           $$PWD/src/inireader.cpp \
-           $$PWD/src/ini.cpp
+SOURCES += \
+  $$PWD/src/tlogger.cpp \
+  $$PWD/src/inireader.cpp \
+  $$PWD/src/ini.cpp
 
-HEADERS += $$PWD/src/tlogger.h \
-           $$PWD/src/tlogger_global.h \
-           $$PWD/src/inireader.h \
-           $$PWD/src/ini.h \
-           $$PWD/src/TLogger
+HEADERS += \
+  $$PWD/src/tlogger.h \
+  $$PWD/src/tlogger_global.h \
+  $$PWD/src/inireader.h \
+  $$PWD/src/ini.h \
+  $$PWD/src/TLogger
 
 DESTDIR = $$PWD/build/lib
 MOC_DIR = $$PWD/build/moc
